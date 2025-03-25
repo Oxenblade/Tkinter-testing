@@ -10,7 +10,7 @@ class elder:
     def clicker(self):
         print("look at you.. you clicked a button!")
         
-    def _init_(self, master):
+    def __init__(self, master):
         myframe = Frame(master)
         myframe.pack()
 
